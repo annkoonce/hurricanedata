@@ -5,7 +5,7 @@ import streamlit as st
 # Dependencies: pandas, streamlit
 
 # Load and clean the hurricane data
-file_path = 'C:\\Users\\jhnnk\\Documents\\Python312\\Hurricane_Data.csv'  # Update this to your file path
+file_path = 'Hurricane_Data.csv'  # Update this to your file path
 hurricane_data = pd.read_csv(file_path, skiprows=2)
 
 # Rename the columns for clarity
